@@ -5,6 +5,8 @@ Gesture Lens is a fun and simple AI tool that detects sign language alphabets in
 
 Whether you're learning AI or just exploring hand gestures, this project is a great starting point.
 
+![Screenshot 2025-04-07 135310](https://github.com/user-attachments/assets/dbd653d6-3abf-43d7-9ecc-6458088e92d2)![Screenshot 2025-04-07 135328](https://github.com/user-attachments/assets/a328985d-d919-4632-9907-3e2b9e6c9081)
+
 🧠 What It Does
 ----
     👋 Detects hand signs (A-Z) from sign language
