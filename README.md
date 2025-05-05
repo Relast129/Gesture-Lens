@@ -1,43 +1,106 @@
-# Sign-Language-Alphabet-Detector
-Built a Sign Language Alphabet Detector using Machine Learning and Computer Vision to recognize and classify hand signs in real time. This project leverages Python, OpenCV, and Mediapipe to train a model on sign language alphabets, enabling seamless communication for individuals with hearing impairments.
+✋ Gesture Lens – Real-Time Sign Language Alphabet Detector
+-----------------------------------------------------------
+Gesture Lens is a fun and simple AI tool that detects sign language alphabets in real time using your webcam! Built with love using Python, MediaPipe, and OpenCV, it helps break communication barriers and promotes inclusivity.
 
-Structure:
-Sign-Language-Alphabet-Detector
-|-collect_imgs.py
-|-create_dataset.py
-|-inference_classifier.py
-|-train_classifier.py
-|-data(folder)
+Whether you're learning AI or just exploring hand gestures, this project is a great starting point.
 
-Libraries that are used:
-+ opency-python
-+ scikit-learn
-+ mediapipe
-+ matplotlib
-+ pickle
-+ numpy
+🧠 What It Does
+----
+    👋 Detects hand signs (A-Z) from sign language
+    
+    📷 Uses your webcam to see and recognize signs in real-time
+    
+    🧠 Trains your own custom model using your hand images
+    
+    🧰 Uses free tools and beginner-friendly code
 
-Steps to use this ML model:
----------------------------
+🧰 Tech Used
+Python
 
-1) Clone the repository.
-2) Open the folder in any IDE you prefer, but i recommend Pycharm.
-3) Create a new folder named data, which we will use later to capture images, label them and train the model with.
-4) after that run the collect_imgs.py file to capture images of you, these data will be used to train the model.(use sign language alphabets, and capture them properly otherwise it would lead to errors)
-5) After you have captured the data it would store them in the data folder, you can view them as 0,1,2 folders.
-6) Now run the create_dataset.py file it would label the images you captured and create your very own dataset to use.
-7) Now you will see a new file named data.picle, this would be used to train the model.
-8) After you have successfully created the dataset, run the train_classifier.py to train the model according to the dataset you have created.
-9) Again you will see a new file named model.p.
-10) After completing every step now you can run the inferences_classifier.py it would use the model.p file and detect the hand gestures.
-11) You can adjust the number of classes(how many alphabet letters), which camera to use.
-12) Enjoy!
+OpenCV
 
-Thank You!
-Contact:
-linkedIn - www.linkedin.com/in/raheesh-ramsy-19897b294
-Email - ramzyraheesh@gmail.com
-WhatsApp - +94 074 220 9477
+MediaPipe
 
+scikit-learn
 
+NumPy
+
+Matplotlib
+
+Pickle
+
+🚀 How to Use (Step-by-Step)
+Make sure Python is installed, and you're in a cool mood 😎
+
+🔁 1. Clone this repo
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/Gesture-Lens.git
+cd Gesture-Lens
+📦 2. Install the magic
+bash
+Copy
+Edit
+pip install opencv-python mediapipe scikit-learn matplotlib numpy
+📸 3. Capture your signs
+bash
+Copy
+Edit
+python collect_imgs.py
+Make different hand signs (like A, B, C...).
+
+Images will be saved into a data/ folder.
+
+🧷 4. Create your dataset
+bash
+Copy
+Edit
+python create_dataset.py
+This creates data.pickle which holds your labeled data.
+
+🧠 5. Train the brain
+bash
+Copy
+Edit
+python train_classifier.py
+This trains your model and saves it as model.p.
+
+👁️ 6. Run the live detector!
+bash
+Copy
+Edit
+python inference_classifier.py
+Show your hand signs to your webcam and see the predictions live!
+
+🛠️ Folder Structure
+bash
+Copy
+Edit
+Gesture-Lens/
+├─ collect_imgs.py        # Capture hand sign images
+├─ create_dataset.py      # Create the dataset
+├─ train_classifier.py    # Train the model
+├─ inference_classifier.py# Real-time sign detection
+├─ data/                  # Your captured gesture images
+💡 Cool Ideas
+Add more letters or even full words
+
+Make it multilingual (Sinhala or Tamil!)
+
+Connect it with a chatbot or voice speaker
+
+Deploy it as a simple web app using Streamlit
+
+👦 Made by Raheesh
+I'm a 17-year-old self-taught AI enthusiast from Sri Lanka 🇱🇰, passionate about using technology to solve real-world problems. Gesture Lens is one of my early AI projects — and I hope it inspires you to build your own!
+
+🔗 LinkedIn
+
+📧 ramzyraheesh@gmail.com
+
+📱 WhatsApp: +94 074 220 9477
+
+📜 License
+Free to use under the MIT License. Make something awesome with it!
 
